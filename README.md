@@ -86,20 +86,21 @@ Prototype and build IoT systems without setting up servers or developing web sof
 
 # PROGRAM:
 ```
+
 #include "ThingSpeak.h"
 #include <WiFi.h>
 
-char ssid[] = "";//your wifi ssid//
-char pass[] = "";//your wifi pass//
+char ssid[] = "Galaxy";//your wifi ssid//
+char pass[] = "pavithra";//your wifi pass//
 
 const int out = 34; // soil moisture sensor analog pin
 int soilValue = 0;
 
 WiFiClient client;
 
-unsigned long myChannelField = 3117061;
+unsigned long myChannelField = 3159491;
 const int MoistureField = 1;
-const char* myWriteAPIKey = "KV7G0R00QUIFIM7N";
+const char* myWriteAPIKey = "L5HBZLFCO8JBDISA";
 
 void setup() {
   Serial.begin(115200);
@@ -138,12 +139,16 @@ void loop() {
 }
 ```
 # CIRCUIT DIAGRAM:
-<img width="1030" height="550" alt="Screenshot 2025-11-11 191625" src="https://github.com/user-attachments/assets/126c6dfc-8b0e-436e-9270-550952f6c468" />
+
+![WhatsApp Image 2025-11-18 at 11 22 24_a2233712](https://github.com/user-attachments/assets/3ce8bdc0-0a17-48cb-a89c-55860d76dd74)
+
 
 # OUTPUT:
-<img width="1027" height="224" alt="Screenshot 2025-11-11 191644" src="https://github.com/user-attachments/assets/7209df04-62d0-46ce-a0a2-f2466f4424f1" />
 
-<img width="1015" height="520" alt="Screenshot 2025-11-11 191654" src="https://github.com/user-attachments/assets/7d83f075-a7ac-472c-91fb-ae785ce1af40" />
+<img width="1918" height="1004" alt="Screenshot 2025-11-18 111852" src="https://github.com/user-attachments/assets/79d74368-d569-4c2c-a7f7-e3d64e8239fd" />
+
+<img width="1919" height="1090" alt="Screenshot 2025-11-18 111921" src="https://github.com/user-attachments/assets/6578859d-dfd5-4311-bce9-d715a054444e" />
+
 
 
 # RESULT:
