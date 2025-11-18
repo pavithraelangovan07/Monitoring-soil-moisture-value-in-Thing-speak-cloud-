@@ -1,4 +1,4 @@
-# Monitoring-soil-moisture-value-in-Thing speak cloud
+# EXP NO:5 Monitoring soil moisture value in Thing speak cloud
 # NAME:E.PAVITHRA
 # REG NO:212224220072
 
